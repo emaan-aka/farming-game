@@ -1,0 +1,2805 @@
+{
+  "game_state": {
+    "day": 1,
+    "time_minutes": 12.061999999999951,
+    "player_pos": {
+      "x": 9,
+      "y": 7
+    },
+    "player_money": 20,
+    "inventory": {
+      "carrot_seeds": 3,
+      "tomato_seeds": 2
+    }
+  },
+  "field_state": [
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "forage",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": "ancient_coin",
+        "forage_spawn_time": 10,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ],
+    [
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      },
+      {
+        "cell_type": "empty",
+        "plant_type": null,
+        "growth_stage": 0,
+        "watered": false,
+        "forage_item": null,
+        "forage_spawn_time": 0,
+        "plant_timer": 0
+      }
+    ]
+  ]
+}
