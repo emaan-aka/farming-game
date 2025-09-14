@@ -3,8 +3,8 @@ UI system for displaying game state, inventory, and tooltips.
 """
 import pygame
 import pygame_emojis
-from typing import Dict, Optional
-from farming_game.data.data_classes import Position, CellType, InteractionResult
+from typing import Optional
+from farming_game.data.data_classes import Position, CellType
 from farming_game.data.constants import *
 from farming_game.core.game_manager import GameManager
 
@@ -28,10 +28,10 @@ class UI:
                 # Draw cell background
                 if storage.is_seed_shop_position(x, y):
                     pygame.draw.rect(self.screen, BROWN, rect)
-                    self.draw_emoji("🏪", rect.centerx, rect.centery, size=30)
+                    self.draw_emoji("🏪", rect.centerx, rect.centery, size=SHOP_EMOJI_SIZE)
                 elif storage.is_shipping_position(x, y):
                     pygame.draw.rect(self.screen, GRAY, rect)
-                    self.draw_emoji("📫", rect.centerx, rect.centery, size=30)
+                    self.draw_emoji("📫", rect.centerx, rect.centery, size=SHOP_EMOJI_SIZE)
                 elif cell.cell_type == CellType.PLANTED:
                     pygame.draw.rect(self.screen, GREEN, rect)
                     self.draw_plant(cell, rect)
@@ -45,13 +45,13 @@ class UI:
         
         # Draw player
         player_rect = pygame.Rect(player_pos.x * GRID_SIZE, player_pos.y * GRID_SIZE, GRID_SIZE, GRID_SIZE)
-        self.draw_emoji("👩‍🌾", player_rect.centerx, player_rect.centery, size=30)
+        self.draw_emoji("👩‍🌾", player_rect.centerx, player_rect.centery, size=PLAYER_EMOJI_SIZE)
         
         # Draw held item indicator next to player
         if selected_item:
             item_emoji = self.get_item_emoji(selected_item)
             if item_emoji:
-                self.draw_emoji(item_emoji, player_rect.right - 6, player_rect.centery - 10, size=18)
+                self.draw_emoji(item_emoji, player_rect.right - 6, player_rect.centery - 10, size=HELD_ITEM_EMOJI_SIZE)
     
     def draw_plant(self, cell, rect):
         if not cell.plant_type:
@@ -63,11 +63,11 @@ class UI:
         
         # Show different stages
         if cell.growth_stage == 0:
-            self.draw_emoji("🌱", rect.centerx, rect.centery, size=30)
+            self.draw_emoji("🌱", rect.centerx, rect.centery, size=PLANT_EMOJI_SIZE)
         elif cell.growth_stage < plant_data.growth_stages - 1:
-            self.draw_emoji("🌿", rect.centerx, rect.centery, size=30)
+            self.draw_emoji("🌿", rect.centerx, rect.centery, size=PLANT_EMOJI_SIZE)
         else:
-            self.draw_emoji(plant_data.sprite, rect.centerx, rect.centery, size=30)
+            self.draw_emoji(plant_data.sprite, rect.centerx, rect.centery, size=PLANT_EMOJI_SIZE)
         
         # Show water indicator
         if cell.growth_stage in plant_data.water_requirements and not cell.watered:
@@ -82,7 +82,7 @@ class UI:
             return
         
         # Draw forage item
-        self.draw_emoji(forage_data.sprite, rect.centerx, rect.centery, size=30)
+        self.draw_emoji(forage_data.sprite, rect.centerx, rect.centery, size=PLANT_EMOJI_SIZE)
         
         # Draw rarity indicator
         rarity_color = RARITY_COLORS.get(forage_data.rarity, WHITE)
@@ -240,7 +240,7 @@ class UI:
                 # Draw item content
                 emoji = self.get_item_emoji(item)
                 if emoji:
-                    self.draw_emoji(emoji, slot_x + slot_size//2, y_pos + 30, size=32)
+                    self.draw_emoji(emoji, slot_x + slot_size//2, y_pos + 30, size=INVENTORY_EMOJI_SIZE)
                     quantity = game_manager.player.inventory.get(item, 0)
                     self.draw_text(str(quantity), slot_x + slot_size - 20, y_pos + 55, color=BLACK, font=self.small_font)
                 else:

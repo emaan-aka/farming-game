@@ -1,7 +1,7 @@
 """
 Plant system with growth mechanics and interactions.
 """
-from typing import Optional, List
+from typing import Optional
 from farming_game.data.data_classes import Position, CellState, CellType, InteractionResult
 from farming_game.data.constants import PLANT_REGISTRY
 from farming_game.core.player import Player
@@ -22,9 +22,6 @@ class PlantSystem:
         plant_data = PLANT_REGISTRY.get(plant_type)
         if not plant_data:
             return InteractionResult.FAILED
-        
-        if not player.spend_money(plant_data.seed_cost):
-            return InteractionResult.NO_MONEY
         
         player.remove_item(seed_name)
         

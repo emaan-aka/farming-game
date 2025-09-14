@@ -15,6 +15,7 @@ class Field:
         self.cells = [[CellState() for _ in range(FIELD_WIDTH)] for _ in range(FIELD_HEIGHT)]
     
     def get_cell(self, pos: Position) -> Optional[CellState]:
+        """Get cell at given position if valid."""
         if 0 <= pos.x < FIELD_WIDTH and 0 <= pos.y < FIELD_HEIGHT:
             return self.cells[pos.y][pos.x]
         return None

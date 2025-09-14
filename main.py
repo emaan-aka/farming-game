@@ -23,7 +23,6 @@ class FarmingGame:
         
         # Available plant types for planting (gigantic_pumpkin unlocked on day 3)
         self.plant_types = ["carrot", "tomato", "melon"]
-        self.current_plant_index = 0
         
         # Inventory selection
         self.selected_inventory_item = None
@@ -31,7 +30,7 @@ class FarmingGame:
         
         # Movement timing
         self.last_move_time = 0
-        self.move_delay = 150  # milliseconds between moves
+        self.move_delay = MOVEMENT_DELAY
     
     def handle_events(self):
         for event in pygame.event.get():
@@ -114,7 +113,7 @@ class FarmingGame:
     
     def cycle_inventory_selection(self):
         # Create full inventory list with empty hands + items + empty slots
-        max_slots = 8
+        max_slots = MAX_INVENTORY_SLOTS
         inventory_slots = [None]  # Empty hands
         inventory_slots.extend(list(self.game_manager.player.inventory.keys()))
         
@@ -152,10 +151,10 @@ class FarmingGame:
             self.show_message(f"Planted {plant_type}!")
         elif result == InteractionResult.NO_SEEDS:
             self.show_message(f"No {self.selected_inventory_item}!")
-        elif result == InteractionResult.NO_MONEY:
-            self.show_message("Not enough money!")
         elif result == InteractionResult.ALREADY_PLANTED:
             self.show_message("Already planted here!")
+        else:
+            self.show_message("Can't plant here!")
     
     def water_plant(self):
         result = self.game_manager.plant_system.water_plant(self.game_manager.player.position)
@@ -195,39 +194,24 @@ class FarmingGame:
             self.show_message("No seed shop here!")
             return
         
-        # Buy based on selected inventory item or show menu
+        # Buy based on selected inventory item or default to carrot
         if self.selected_inventory_item and self.selected_inventory_item.endswith("_seeds"):
             plant_type = self.selected_inventory_item.replace("_seeds", "")
-            result = self.game_manager.storage_system.buy_seeds(
-                self.game_manager.player, plant_type, 1
-            )
-            
-            if result == InteractionResult.SUCCESS:
-                self.show_message(f"Bought {plant_type} seeds!")
-            elif result == InteractionResult.NO_MONEY:
-                plant_data = PLANT_REGISTRY.get(plant_type)
-                cost = plant_data.seed_cost if plant_data else 0
-                self.show_message(f"Need ${cost} for {plant_type} seeds!")
-            else:
-                self.show_message("Can't buy seeds!")
         else:
-            # Show available seeds to buy
-            available_plants = self.plant_types.copy()
-            if len(available_plants) > 0:
-                # Buy first available plant type as default
-                plant_type = available_plants[0]
-                result = self.game_manager.storage_system.buy_seeds(
-                    self.game_manager.player, plant_type, 1
-                )
-                
-                if result == InteractionResult.SUCCESS:
-                    self.show_message(f"Bought {plant_type} seeds!")
-                elif result == InteractionResult.NO_MONEY:
-                    plant_data = PLANT_REGISTRY.get(plant_type)
-                    cost = plant_data.seed_cost if plant_data else 0
-                    self.show_message(f"Need ${cost} for {plant_type} seeds!")
-                else:
-                    self.show_message("Can't buy seeds!")
+            plant_type = "carrot"  # Default to cheapest seed
+        
+        result = self.game_manager.storage_system.buy_seeds(
+            self.game_manager.player, plant_type, 1
+        )
+        
+        if result == InteractionResult.SUCCESS:
+            self.show_message(f"Bought {plant_type} seeds!")
+        elif result == InteractionResult.NO_MONEY:
+            plant_data = PLANT_REGISTRY.get(plant_type)
+            cost = plant_data.seed_cost if plant_data else 0
+            self.show_message(f"Need ${cost} for {plant_type} seeds!")
+        else:
+            self.show_message("Can't buy seeds!")
     
     def ship_items(self):
         pos = self.game_manager.player.position
@@ -243,7 +227,7 @@ class FarmingGame:
     
     def show_message(self, text: str):
         self.message = text
-        self.message_timer = pygame.time.get_ticks() + 2000  # Show for 2 seconds
+        self.message_timer = pygame.time.get_ticks() + MESSAGE_DISPLAY_TIME
     
     def update(self, delta_time):
         self.game_manager.update(delta_time)

@@ -27,7 +27,6 @@ class CellState:
     plant_type: Optional[str] = None
     growth_stage: int = 0
     watered: bool = False
-    last_watered_day: int = -1
     forage_item: Optional[str] = None
     forage_spawn_time: int = 0
     plant_timer: int = 0  # tracks growth progress
@@ -36,11 +35,10 @@ class CellState:
 class GameState:
     day: int = 1
     time_minutes: int = 0  # current time in game minutes
-    player_pos: Position = field(default_factory=lambda: Position(9, 7))
+    player_pos: Position = field(default_factory=lambda: Position(9, 7))  # Will be updated to use constants in game manager
     player_money: int = 100
     inventory: Dict[str, int] = field(default_factory=dict)
     field_state: List[List[CellState]] = field(default_factory=list)
-    chest_contents: Dict[str, int] = field(default_factory=dict)
     
     def get_time_string(self) -> str:
         hours = int(self.time_minutes // 60) % 24

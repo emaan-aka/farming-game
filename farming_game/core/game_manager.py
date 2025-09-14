@@ -2,17 +2,24 @@
 Game manager for day/night cycles, time management, and game state coordination.
 """
 import json
-from typing import Dict, Any
-from farming_game.data.data_classes import GameState, Position, CellState
+from typing import Dict, Any, Optional
+from farming_game.data.data_classes import GameState, Position, CellState, CellType
 from farming_game.data.constants import GAME_DAY_LENGTH, MINUTES_PER_SECOND, FIELD_WIDTH, FIELD_HEIGHT
 from farming_game.core.player import Player
 from farming_game.core.field import Field
 from farming_game.systems.plants import PlantSystem
 from farming_game.systems.forage import ForageSystem
 from farming_game.systems.storage import StorageSystem
+from farming_game.services.save_service import SaveService
 
 class GameManager:
-    def __init__(self):
+    def __init__(self, player_id: int = None, save_id: int = None):
+        self.player_id = player_id
+        self.current_save_id = save_id
+        self.current_save_name = "Default Save"
+        self.save_service = SaveService()
+        
+        # Initialize game components
         self.game_state = GameState()
         self.player = Player(self.game_state.player_pos)
         self.field = Field()
@@ -21,8 +28,11 @@ class GameManager:
         self.storage_system = StorageSystem()
         self.last_update_time = 0
         
-        # Initialize field state in game_state
-        self.sync_game_state()
+        # Load save if specified, otherwise start new game
+        if save_id:
+            self.load_game_from_database(save_id)
+        else:
+            self.sync_game_state()
     
     def sync_game_state(self):
         self.game_state.player_pos = self.player.position
@@ -74,6 +84,61 @@ class GameManager:
     
     def get_current_time_string(self) -> str:
         return self.game_state.get_time_string()
+    
+    def save_game_to_database(self, save_name: str = None) -> bool:
+        """Save game to database."""
+        if not self.player_id:
+            print("No player ID set - cannot save to database")
+            return False
+            
+        save_name = save_name or self.current_save_name
+        
+        return self.save_service.save_game_state(
+            player_id=self.player_id,
+            save_name=save_name,
+            game_state=self.game_state,
+            player_money=self.player.money,
+            inventory=self.player.inventory,
+            field_cells=self.field.get_all_cells()
+        )
+    
+    def load_game_from_database(self, save_id: int) -> bool:
+        """Load game from database."""
+        save_data = self.save_service.load_game_state(save_id)
+        if not save_data:
+            return False
+            
+        try:
+            save = save_data['save']
+            field_cells_data = save_data['field_cells_data']
+            inventory = save_data['inventory']
+            
+            # Update game state
+            self.game_state.day = save.day
+            self.game_state.time_minutes = save.time_minutes
+            self.game_state.player_pos = Position(save.player_pos_x, save.player_pos_y)
+            
+            # Update player
+            self.player.position = Position(save.player_pos_x, save.player_pos_y)
+            self.player.money = save.player_money
+            self.player.inventory = inventory
+            
+            # Reconstruct field
+            field_cells = self.save_service.create_field_from_data(field_cells_data, FIELD_WIDTH, FIELD_HEIGHT)
+            self.field.cells = field_cells
+            
+            # Update tracking variables
+            self.current_save_id = save_id
+            self.current_save_name = save.save_name
+            self.last_update_time = int(self.game_state.time_minutes)
+            
+            self.sync_game_state()
+            print(f"Game loaded: {save.save_name} (Day {save.day})")
+            return True
+            
+        except Exception as e:
+            print(f"Failed to load game from database: {e}")
+            return False
     
     def save_game(self, filename: str = "savegame.json"):
         save_data = {
@@ -147,3 +212,17 @@ class GameManager:
         except Exception as e:
             print(f"Failed to load game: {e}")
             return False
+    
+    def get_player_saves(self) -> list:
+        """Get all saves for current player."""
+        if not self.player_id:
+            return []
+        return self.save_service.get_player_saves(self.player_id)
+    
+    def delete_save(self, save_id: int) -> bool:
+        """Delete a save file."""
+        return self.save_service.delete_save(save_id)
+    
+    def close(self):
+        """Close database connections."""
+        self.save_service.close()

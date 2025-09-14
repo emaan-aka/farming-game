@@ -2,8 +2,7 @@
 Game constants, settings, and data registries for the farming game.
 """
 from dataclasses import dataclass
-from typing import List, Optional, Dict, Any
-import pygame
+from typing import List
 
 # Game settings
 WINDOW_WIDTH = 1000
@@ -86,3 +85,21 @@ FORAGE_REGISTRY = {
 # UI settings
 UI_PANEL_WIDTH = 300
 FONT_SIZE = 24
+
+# Game defaults
+DEFAULT_STARTING_MONEY = 20
+DEFAULT_STARTING_SEEDS = {"carrot_seeds": 3, "tomato_seeds": 2}
+MESSAGE_DISPLAY_TIME = 2000  # milliseconds
+MOVEMENT_DELAY = 150  # milliseconds
+MAX_INVENTORY_SLOTS = 8
+
+# Player position defaults
+DEFAULT_PLAYER_X = 9
+DEFAULT_PLAYER_Y = 7
+
+# Emoji sizes
+PLANT_EMOJI_SIZE = 30
+PLAYER_EMOJI_SIZE = 30
+HELD_ITEM_EMOJI_SIZE = 18
+INVENTORY_EMOJI_SIZE = 32
+SHOP_EMOJI_SIZE = 30
