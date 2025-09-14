@@ -3,10 +3,10 @@ Main game loop and entry point for the farming game - refactored with modules.
 """
 import pygame
 import sys
-from data.data_classes import Position, InteractionResult
-from data.constants import *
-from core.game_manager import GameManager
-from ui.renderer import UI
+from farming_game.data.data_classes import Position, InteractionResult
+from farming_game.data.constants import *
+from farming_game.core.game_manager import GameManager
+from farming_game.ui.renderer import UI
 
 class FarmingGame:
     def __init__(self):
