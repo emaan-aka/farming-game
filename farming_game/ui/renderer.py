@@ -120,7 +120,7 @@ class UI:
         ]
         
         # Add gigantic pumpkin if unlocked (day 3+)
-        if game_manager.game_state.day >= 3:
+        if game_manager.game_state.day >= 1:
             seed_info.append("G.Pumpkin: $500")
         
         for info in seed_info:
@@ -128,7 +128,7 @@ class UI:
             y_offset += 18
         
         # Controls help
-        y_offset = WINDOW_HEIGHT - 250
+        y_offset = WINDOW_HEIGHT - 400
         self.draw_text("Controls:", panel_rect.x + 10, y_offset, color=BLACK, font=self.large_font)
         y_offset += 30
         
@@ -171,7 +171,7 @@ class UI:
     
     def draw_bottom_inventory(self, game_manager: GameManager, selected_item=None):
         # Draw inventory bar at bottom of screen
-        inventory_height = 80
+        inventory_height = 100
         inventory_rect = pygame.Rect(0, WINDOW_HEIGHT - inventory_height, WINDOW_WIDTH, inventory_height)
         pygame.draw.rect(self.screen, WHITE, inventory_rect)
         pygame.draw.rect(self.screen, BLACK, inventory_rect, 2)

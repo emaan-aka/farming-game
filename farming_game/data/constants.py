@@ -6,11 +6,11 @@ from typing import List
 
 # Game settings
 WINDOW_WIDTH = 1000
-WINDOW_HEIGHT = 750
+WINDOW_HEIGHT = 780
 FPS = 60
 GRID_SIZE = 40
 FIELD_WIDTH = 18
-FIELD_HEIGHT = 16
+FIELD_HEIGHT = 17
 
 # Time settings (1 game minute = 1 real second)
 GAME_DAY_LENGTH = 900  # 900 game minutes = 15 real minutes
