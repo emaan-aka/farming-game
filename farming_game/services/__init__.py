@@ -1,1 +1,0 @@
-"""Services module for farming game."""
